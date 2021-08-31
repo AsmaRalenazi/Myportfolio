@@ -249,7 +249,7 @@ nav ul li a:hover{
 }
 .contact-input{
 	width: 25%;
-    height: 145px;
+    height: 200px;
 	background-color:#FFFFFF;
 	justify-content: center;
 	border-radius: 50px;
@@ -278,7 +278,7 @@ nav ul li a:hover{
 }
 .email-icon{
 	margin: 15px;
-	margin-left: 19%;
+	margin-left: 18%;
 	
 }
 .myemail {
@@ -290,7 +290,7 @@ nav ul li a:hover{
 }
 .phone-icon {
     margin: -23px;
-    margin-left: 20%;
+    margin-left: 18%;
 }
 .mynum{
 	margin-left: 28%;
@@ -298,10 +298,13 @@ nav ul li a:hover{
 	font-weight: bold;
 
 }
+.mylinkedin{
+
+}
 .bi-linkedin {
     margin: 3px;
-    margin-top: 3px;
-    margin-left: 69px;
+    margin-top: 9px;
+    margin-left: 36px;
 }
 
 .bi-github {
@@ -309,6 +312,26 @@ nav ul li a:hover{
     margin-top: -20px;
     margin-left: 110px;
 }
+.mylinkedin{
+margin-left: 30%;
+color:#1c3548;
+font-weight: bold;
+margin-top: -31px;
+}
+.bi-github{
+	margin-left: 10%;
+	margin-top: 0%;	
+}
+.mygithub{
+
+margin-top: -12%;
+margin-left: 30%;
+}
+.mygithub{
+	color:#1c3548;
+	font-weight: bold;
+}
+
 footer{
 	display:flex;
 	justify-content: space-around;
@@ -330,6 +353,7 @@ nav .menu-btn,
 @media(max-width:1140px){
 	.content{
 		width:100%;
+		margin-top: 6%;
 	}
 	.model{
 		width:400px;
@@ -349,6 +373,35 @@ nav .menu-btn,
 	.client-box{
 		flex-grow:0.5;
 	}
+	.contact-input {
+		margin: 3%;
+		width: 38%;
+		height: 5%;
+	}
+	.bi-linkedin{
+		margin-left: 10%;
+	}
+
+	.mylinkedin{
+	margin-left: 30%;
+	color:#1c3548;
+	font-weight: bold;
+	margin-top: -31px;
+	}
+	.bi-github{
+		margin-left: 10%;
+		margin-top: 0%;	
+	}
+	.mygithub{
+
+margin-top: -12%;
+    margin-left: 30%;
+	}
+	.mygithub{
+		color:#1c3548;
+		font-weight: bold;
+	}
+
 }
 @media(max-width:900px){
 .menu-icon{
