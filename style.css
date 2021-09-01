@@ -22,6 +22,7 @@ a{
 #main{
 	width:100%;
 	height:100vh;
+	overflow: hidden;
 	position: relative;
 }
 nav{
@@ -249,7 +250,7 @@ nav ul li a:hover{
 }
 .contact-input{
 	width: 25%;
-    height: 200px;
+    height: 213px;
 	background-color:#FFFFFF;
 	justify-content: center;
 	border-radius: 50px;
@@ -419,7 +420,8 @@ margin-top: -12%;
 }
 @media(max-width:900px){
 .menu-icon{
-display:block;}
+display:block;
+}
 	nav{
 		justify-content: space-between;
 		height: 65px;
@@ -427,9 +429,10 @@ display:block;}
 	}
 	.logo img{
 		height:35px;
+		margin-top: -5%;
 	}
 	.menu{
-		display:block;
+		display:none;
 		position:absolute;
 		top:65px;
 		left:0px;
@@ -457,6 +460,7 @@ display:block;}
 		padding:28px 20px;
 		position:relative;
 		user-select: none;
+		margin-right: 44%;
 	}
 	nav .menu-icon .nav-icon{
 		background-color:#333333;
@@ -484,6 +488,7 @@ display:block;}
 	}
 	nav .menu-btn:checked ~ .menu-icon .nav-icon{
 		background:transparent;
+		
 	}
 	nav .menu-btn:checked ~ .menu-icon .nav-icon:before{
 		transform: rotate(-45deg);
@@ -495,7 +500,6 @@ display:block;}
 	}
 	nav .menu-btn{
 		display:none;
-		
 	}
 	nav .menu-btn:checked ~ .menu{
 		display:block;
@@ -514,8 +518,7 @@ display:block;}
     margin-right: 91px;
 	}
 	.skill-img img{
-		object-fit: cover;
-		object-position: left;
+	width: 100%;
 	}
 	.recent-heading h3,
 	.client-heading h3,
@@ -527,11 +530,18 @@ display:block;}
 		text-align:center;
 		padding:0px 15px;
 	}
-	
+
+.hey {
+    margin-top: 20px;
+    margin-right:-45%;
+}
 }
 @media(max-width:720px){
 	.model{
 		display:none;
+	}
+	.contact-input{
+		width: 56%;
 	}
 	.main-text{
 		width:70%;
@@ -561,12 +571,14 @@ display:block;}
 	.recent-btn{
 		margin:0px;
 	}
+	.skill-img img {
+		width: 137%;
+		margin-left: -30%;
+	}
 
 }
 @media(max-width:530px){
-	.contact-input {
-		width: 91%;
-	}
+	
 	.skill-img{
 		display:none;
 	}
@@ -575,5 +587,9 @@ display:block;}
 	}
 	#skills{
 		margin:0px;
+	}
+	.contact-input {
+		width: 80%;
+		padding-bottom: 20px;
 	}
 }
