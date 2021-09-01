@@ -564,9 +564,8 @@ display:block;}
 
 }
 @media(max-width:530px){
-	.contact-input{
-		width:68%;
-		height: 5%;
+	.contact-input {
+		width: 91%;
 	}
 	.skill-img{
 		display:none;
